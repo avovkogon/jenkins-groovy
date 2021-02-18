@@ -2,7 +2,7 @@
 
 node {
     def rootDir = pwd()
-    def myModule = load "${rootDir}@script/mylib.Groovy "
+    def myModule = load "${rootDir}/mylib.groovy"
 
 
     stage('first'){println "123321"}
