@@ -2,7 +2,7 @@
 
 node {
     checkout scm
-    
+
     def rootDir = pwd()
     def myModule = load "${rootDir}/mylib.groovy"
 
@@ -13,7 +13,7 @@ node {
         sh "ls"
     }
 
-    //stage('Hello'){ myModule.print_hello('Alex') }
+    stage('Hello'){ myModule.print_hello('Alex') }
 
 }
 
