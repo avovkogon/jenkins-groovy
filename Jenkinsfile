@@ -2,4 +2,9 @@
 
 
 node {
-    stage('Hello'){ main.print_hello() }
+
+    stage('first'){println "123321"}
+
+    //stage('Hello'){ main.print_hello() }
+
+}
