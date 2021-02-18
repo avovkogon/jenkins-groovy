@@ -5,9 +5,13 @@ node {
     def myModule = load "${rootDir}/mylib.groovy"
 
 
-    stage('first'){println "123321"}
+    stage('first'){
+        println "123321"
+        sh "pwd"
+        sh "ls"
+    }
 
-    stage('Hello'){ myModule.print_hello('Alex') }
+    //stage('Hello'){ myModule.print_hello('Alex') }
 
 }
 
