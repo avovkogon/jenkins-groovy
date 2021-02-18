@@ -1,6 +1,8 @@
 // import groovy.transform.Field
 
 node {
+    checkout scm
+    
     def rootDir = pwd()
     def myModule = load "${rootDir}/mylib.groovy"
 
