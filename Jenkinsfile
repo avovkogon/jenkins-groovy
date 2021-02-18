@@ -4,7 +4,7 @@ node {
     checkout scm
 
     def rootDir = pwd()
-    def myModule = load "${rootDir}/mylib.groovy"
+    def myModule = load "${rootDir}@script/mylib.groovy"
 
 
     stage('first'){
