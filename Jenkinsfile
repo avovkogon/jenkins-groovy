@@ -1,5 +1,5 @@
 // import groovy.transform.Field
-import main
+import main.groovy
 
 node {
 
