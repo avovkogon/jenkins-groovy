@@ -1,5 +1,5 @@
-def print_hello (final name){
-    println "Hello $name"
+def print_hello (){
+    println "Hello 123"
 }
 
 return this
