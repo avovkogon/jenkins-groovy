@@ -1,6 +1,6 @@
 def print_hello (name){
     println "Hello "
-    println name
+    println $name
 }
 
 return this
