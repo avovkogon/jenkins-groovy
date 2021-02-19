@@ -1,10 +1,10 @@
 // import groovy.transform.Field
 
-def rootDir = pwd()
-def myModule = load "${rootDir}/mylib.groovy"
-
 node {
     checkout scm
+
+    def rootDir = pwd()
+    def myModule = load "${rootDir}/mylib.groovy"
 
     stage('first'){
         println "123321"
