@@ -1,6 +1,6 @@
-def print_hello (name){
+def print_hello (final Map args){
     println "Hello "
-    println $name
+    println ${args.name}
 }
 
 return this
