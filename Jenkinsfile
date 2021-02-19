@@ -12,7 +12,7 @@ node {
         sh "ls"
     }
 
-    stage('Hello'){ myModule.print_hello('Alex') }
+    stage('Hello'){ myModule.print_hello(name='Alex') }
 
 }
 
