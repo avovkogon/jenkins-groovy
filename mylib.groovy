@@ -1,5 +1,6 @@
 def print_hello (name){
-    println "Hello " name
+    println "Hello "
+    println name
 }
 
 return this
